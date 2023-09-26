@@ -1,10 +1,10 @@
 public class Q43 {
-  private final double value;
+  private final double value=0;
   public Q43(String value){
     this(Double.parseDouble(value));
   }
   public Q43(double value){
-    this.value=value;
+    // this.value=value;
   }
   public Q43(){}
   public double getValue(){return value;}

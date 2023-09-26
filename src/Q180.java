@@ -9,6 +9,7 @@ public class Q180 {
     Arrays.sort(towns,ms);
     System.out.println(Arrays.toString(towns));
     System.out.println(Arrays.binarySearch(towns,"oman",ms));
+    
   }
 }
 
