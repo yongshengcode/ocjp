@@ -11,9 +11,20 @@ public class Q110 {
       this.name = name;
     }
   }
+  
   public static void main(String[] args) {
     var student = new Student("mike");
     var student2 = new Student2("mike");
     Student student1 = new Student("mike");
+
+    class Student3{
+      String name;
+      public Student3(String name){
+        this.name = name;
+      }
+    }
+
+
+    var a = new Student3("");
   }
 }
