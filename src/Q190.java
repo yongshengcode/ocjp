@@ -16,7 +16,7 @@ class Foo {
   }
 }
 
-class Bar extends Foo {
+class Bar extends Q60Foo {
   private void print() {
     System.out.println("bar");
   }

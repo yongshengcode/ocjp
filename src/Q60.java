@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Q60 {
     public static void main(String[] args) {
-        Foo f1 = new Foo();
-        Foo f2 = new Bar();
-        Bar b1 = new Bar();
+        Q60Foo f1 = new Q60Foo();
+        Q60Foo f2 = new Q60Bar();
+        Q60Bar b1 = new Q60Bar();
         Collection<String> c = new ArrayList<>();
         List<String> c1 = new ArrayList<>();
         f1.foo(c);
@@ -20,13 +20,13 @@ public class Q60 {
 
 }
 
-class Foo {
+class Q60Foo {
     public void foo(Collection a) {
         System.out.println("FOO");
     }
 }
 
-class Bar extends Foo {
+class Q60Bar extends Q60Foo {
     public void foo(Collection a) {
         System.out.println("BAR");
     }
